@@ -1,0 +1,187 @@
+       
+.navbar-static-top {
+  margin: 0;
+  border: 0;
+  color: #7fffD4;
+}
+a:link {
+    color: black;
+
+}
+.navbar-top {
+  
+  font-size: 12px;
+  padding: 3px 0;
+
+}
+.navbar-top .list-inline {
+  margin-bottom: 0;
+}
+.navbar-top .header-contact li {
+  margin-right: 15px;
+}
+.navbar-top .header-contact li .fa {
+  margin-right: 5px;
+}
+
+.navbar-main {
+  margin-bottom: 0;
+  color: #fff; background: #E6E6FA; /* Old browsers */
+}
+.navbar-main .navbar-brand {
+  border-bottom: none !important;
+}
+.navbar-main a:hover,
+.navbar-main a:active,
+.navbar-main a:focus,
+.navbar-main a.is-active {
+  background: none !important;
+  color: inherit;
+  border-bottom: 2px solid #fff;
+}
+.navbar-main .submenu {
+  position: absolute;
+  list-style: none;
+  background: #1f76bd;
+  padding: 0;
+  width: 150px;
+  left: -35px;
+  visibility: hidden;
+  top: 85px;
+  -moz-transition: all, 0.05s;
+  -o-transition: all, 0.05s;
+  -webkit-transition: all, 0.05s;
+  transition: all, 0.05s;
+}
+.navbar-main .submenu li {
+  border-top: 1px solid #185b91;
+}
+.navbar-main .submenu li:hover {
+  background: #000066;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.navbar-main .submenu li a {
+  width: 100%;
+  border-bottom: none;
+  text-decoration: none;
+  padding: 5px 25px;
+  display: block;
+  font-size: 16px;
+}
+.navbar-main li a {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  padding: 20px 15px;
+  border-bottom: 2px solid transparent;
+}
+.navbar-main li:hover .submenu {
+  top: 62px;
+  visibility: visible;
+  -moz-transition: all, 0.25s;
+  -o-transition: all, 0.25s;
+  -webkit-transition: all, 0.25s;
+  transition: all, 0.25s;
+}
+.navbar-main .icon-bar {
+  background: #fff;
+}
+div.footer{
+	background-color:black;
+	
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#00001a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 150px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #6666ff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	padding-top:0px;
+	top:90px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+	-webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2e466e), color-stop(1, #415989));
+	background:-moz-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-webkit-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-o-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-ms-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
+	background-color:#2e466e;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:8px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:1px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #415989), color-stop(1, #2e466e));
+	background:-moz-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-webkit-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-o-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-ms-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+
+ body {
+  background: #eee;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
